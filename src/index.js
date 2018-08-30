@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './config/ReactotronConfig';
 import {
   Platform,
   StyleSheet,
@@ -6,11 +7,13 @@ import {
   View
 } from 'react-native';
 
+console.tron.log('hello rendering world');
+
 export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Rommanel - Coleções</Text>
+        <Text>Rommanel - Coleçõeeeeeees</Text>
       </View>
     );
   }
