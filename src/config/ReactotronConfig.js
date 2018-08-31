@@ -1,13 +1,11 @@
-import Reactotron from 'reactotron-react-native'
+import Reactotron from 'reactotron-react-native';
 
-if(__DEV__){
-    const tron = Reactotron
-      .configure() // controls connection & communication settings
-      .useReactNative() // add all built-in react native plugins
-      .connect() // let's connect!
+if (__DEV__) {
+  const tron = Reactotron.configure()
+    .useReactNative()
+    .connect();
 
-    console.tron = tron
+  tron.clear();
 
-    //limpar log cada vez que fechar o app
-    tron.clear()
+  console.tron = tron;
 }
