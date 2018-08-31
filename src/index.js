@@ -5,6 +5,6 @@ import {
 } from 'react-native';
 
 const App = () => (
-  <Text>Rommanel</Text>
+  <Text>Rommanel - Coleções</Text>
 );
 export default App;
