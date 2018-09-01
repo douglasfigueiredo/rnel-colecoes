@@ -1,10 +1,10 @@
 import React from 'react';
 import './config/ReactotronConfig';
-import {
-  Text,
-} from 'react-native';
+
+import Routes from './routes';
 
 const App = () => (
-  <Text>Rommanel - Coleções</Text>
+  <Routes />
 );
+
 export default App;
